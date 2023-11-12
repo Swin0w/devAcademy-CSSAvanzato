@@ -1,0 +1,18 @@
+body {
+  font-size: 26px;
+}
+.parent {
+  background-color: pink;
+}
+.child, .parent {
+  padding: 12px;
+}
+.one {
+  background-color: red;
+}
+.two {
+  background-color: yellow;
+}
+.three {
+  background-color: orange;
+}

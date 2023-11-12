@@ -1,0 +1,21 @@
+.parent {
+  position: relative;
+} 
+.one {
+  /*position: relative;
+  left: 40px;
+  top: 10px;*/
+  /*position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 50%;*/
+  position: fixed;
+  top: 0;
+}
+.two {
+
+}
+.three {
+
+}
