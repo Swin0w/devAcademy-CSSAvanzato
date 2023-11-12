@@ -1,0 +1,118 @@
+#logo {
+    padding: 10px 0;
+    width: fit-content;   
+}
+#logo img {
+    width: 140px;
+    padding-right: 20px;
+    border-right: 2px solid #e5e5e5;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav ul li {
+    display: inline;
+    padding-right: 3px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #858585;
+}
+
+.banner {
+    height: 500px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.banner-text {
+    position: absolute;
+    bottom: 28px;
+    width: 60%;
+    padding: 50px;
+    color: white;
+}
+
+.banner-text h3 {
+    font-size: 30px;
+}
+
+.overlay {
+    position: absolute;
+    background-color: black;
+    opacity: .2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 10px;
+}
+
+/* Main */
+.title {
+    margin: 40px 0;
+}
+
+.title h4 {
+    font-weight: 300;
+}
+
+.col {
+    float: left;
+}
+.col-img {
+    position: relative;
+}
+
+.col-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.col-left, .col-right {
+    width: 20%;
+}
+
+.col-center {
+    width: 60%;
+    padding: 0 20px;
+}
+
+.col-text {
+    margin-top: 20px;
+}
+
+.col-text h3 {
+    margin-bottom: 20px;
+}
+
+.col-text p {
+    color: #858585;
+}
+
+/* Footer */ 
+footer {
+    margin-top: 20px;
+    padding: 40px 0;
+    text-align: center;
+    background-color: pink;
+}
+
+.love::after {
+    content: '\2665';
+    color: red;
+    font-size: 20px;
+}
