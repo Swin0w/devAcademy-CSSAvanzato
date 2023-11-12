@@ -1,21 +1,43 @@
-.parent {
+
+.parent1 .child-1 {
   position: relative;
-} 
-.one {
-  /*position: relative;
-  left: 40px;
-  top: 10px;*/
-  /*position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 50%;*/
-  position: fixed;
-  top: 0;
+  top: 20px;
+  left: 50px;
 }
-.two {
 
+.parent2 {
+  position: relative;
 }
-.three {
+.parent2 .child-1 {
+  /*position: absolute;*/
+}
 
+.parent3 .child-1 {
+  /*position: fixed;*/
+}
+
+.parent4 .child-1 {
+  /*position: sticky;*/
+}
+
+/* Se inserisci a tutti i child float: left ottieni dei div affiancati*/
+.parent5 .child-1 {
+  background-color: red;
+  float: left;
+  margin: 0; /*margini di default: 10px */
+}
+
+.parent6 .child-1 {
+  background-color: red;
+  float: left;
+}
+
+.parent6 .child-2 {
+  background-color: rgb(9, 255, 0);
+  float: left;
+}
+
+.parent6 .child-3 {
+  background-color: rgb(255, 230, 0);
+  float: left;
 }

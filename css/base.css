@@ -1,18 +1,23 @@
 body {
-  font-size: 26px;
+  font-size: 16px;
 }
+.parent::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
 .parent {
-  background-color: pink;
+  background-color: rgb(219, 219, 219);
+  color: rgb(34, 34, 34);
+  margin: 20px 0;
+  border: 1px solid rgb(107, 151, 245);
+  padding: 20px;
 }
-.child, .parent {
-  padding: 12px;
-}
-.one {
-  background-color: red;
-}
-.two {
-  background-color: yellow;
-}
-.three {
-  background-color: orange;
+
+.child {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  background-color: rgb(255, 180, 180);
 }

@@ -9,11 +9,35 @@
   <title>DevAcademy: CSS Avanzato</title>
 </head>
 <body>
-  <div class="parent">
-    Genitore
-    <div class="child one">Figlio 1</div>
-    <div class="child two">Figlio 2</div>
-    <div class="child three">Figlio 3</div>
-  </div>
+<div class="parent parent1">
+  <h3>position: relative</h3>
+  <div class="child child-1"></div>
+</div>
+<div class="parent parent2">
+  <h3>position: absolute in relazione al contenitore padre</h3>
+  <div class="child child-1"></div>
+</div>
+<div class="parent parent3">
+  <h3>position: fixed (funziona sempre relativamente al body)</h3>
+  <div class="child child-1"></div>
+</div>
+<div class="parent parent4">
+  <h3>position: sticky (funziona sempre relativamente al body allo scroll della pagina)</h3>
+  <div class="child child-1"></div>
+</div>
+<div class="parent parent5">
+  <h3>float</h3>
+  <p>Come puoi notare se inserisci la proprietà float il div si sovrappone.. Questo perchè la proprietà float è come un posizionamento assoluto relativo al contenitore padre perciò dovrai "floatare" tutti i child per poi aggiungere il clearfix al contenitore padre per non avere problemi di visualizzazione</p>
+  <p>il float può essere right e left</p>
+  <div class="child child-1"></div>
+  <div class="child child-2"></div>
+  <div class="child child-3"></div>
+</div>
+<div class="parent parent6">
+  <h3>float: esempio</h3>
+  <div class="child child-1"></div>
+  <div class="child child-2"></div>
+  <div class="child child-3"></div>
+</div>
 </body>
 </html>
