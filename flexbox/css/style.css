@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+  border: 2px solid black;
+  width: 80%;
+  height: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  width: 150px;
+  height: 150px;
+}
+.red {
+  background-color: orangered;
+}
+.green {
+  background-color: forestgreen;
+}
+.blue {
+  background-color: cornflowerblue;
+}
