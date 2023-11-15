@@ -8,8 +8,11 @@ body {
 }
 .container {
   display: grid;
-  grid-template-columns: 70% 29%;
-  grid-gap: 1%;
+  /*grid-template-columns: 70% 29%;*/
+  /*grid-gap: 1%;*/
+  grid-template-columns: 1fr 2fr 1fr /* repeat(3, 1fr)*/;
+  grid-gap: 2%;
+  grid-auto-rows: minmax(200px, auto);
 }
 .box {
   background-color: #222;
